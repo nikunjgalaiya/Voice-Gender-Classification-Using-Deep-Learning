@@ -1,6 +1,6 @@
-# 🗣️ Voice Gender Recognition using Deep Learning
+# Voice Gender Recognition using Deep Learning
 
-## 📌 Overview
+##  Overview
 
 This project presents a **deep learning-based voice gender classification system** that takes an audio file and predicts the speaker's gender — *male* or *female*. With the increasing integration of voice-enabled systems into modern devices and virtual assistants, voice-based biometric recognition is becoming essential for personalization and accessibility.
 
@@ -8,7 +8,7 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **OPENSLR12 - LibriSpeech Dataset**
 
@@ -23,7 +23,7 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 🧠 Features Extracted
+##  Features Extracted
 
 | Type                    | Examples                                               |
 |-------------------------|--------------------------------------------------------|
@@ -33,13 +33,13 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 🧪 Models Implemented
+##  Models Implemented
 
-### ✅ Deep Learning
+###  Deep Learning
 - **Artificial Neural Network (ANN)** – Baseline, improved, and hyperparameter-tuned  
 - **Convolutional Neural Network (CNN)** – Spectrogram-based classification with image augmentation
 
-### ✅ Traditional ML
+### Traditional ML
 - Logistic Regression  
 - K-Nearest Neighbors (KNN)  
 - Stochastic Gradient Descent (SGD)  
@@ -48,7 +48,7 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 🛠 Tools & Libraries
+##  Tools & Libraries
 
 - Python 3.x  
 - TensorFlow 2.3, Keras, Keras-Tuner  
@@ -60,7 +60,7 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Visualizations of gender-based voice features  
 - Distribution plots and correlation heatmaps  
@@ -69,9 +69,9 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
-### ✅ REST API with Flask
+###  REST API with Flask
 
 - Upload `.flac` or `.wav` files
 - Features extracted → Model prediction  
@@ -79,14 +79,14 @@ We use a combination of **feature extraction**, **classical ML**, **Artificial N
   - **Best Model (CNN-based)**  
   - **Voting System (ANN + CNN + ML)**
 
-### ✅ Docker Support
+###  Docker Support
 
 - Dockerfile included for easy deployment
 - Can be tested with Postman or other REST clients
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 ```bash
 # Clone the repository
